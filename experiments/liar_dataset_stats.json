@@ -1,0 +1,38 @@
+{
+  "train_shape": [
+    10240,
+    15
+  ],
+  "val_shape": [
+    1284,
+    15
+  ],
+  "test_shape": [
+    1267,
+    15
+  ],
+  "train_label_counts": {
+    "half-true": 2114,
+    "false": 1995,
+    "mostly-true": 1962,
+    "true": 1676,
+    "barely-true": 1654,
+    "pants-fire": 839
+  },
+  "val_label_counts": {
+    "false": 263,
+    "mostly-true": 251,
+    "half-true": 248,
+    "barely-true": 237,
+    "true": 169,
+    "pants-fire": 116
+  },
+  "test_label_counts": {
+    "half-true": 265,
+    "false": 249,
+    "mostly-true": 241,
+    "barely-true": 212,
+    "true": 208,
+    "pants-fire": 92
+  }
+}

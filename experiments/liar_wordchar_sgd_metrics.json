@@ -1,0 +1,17 @@
+{
+  "model": "TFIDF(word 1-2 + char 3-6) + SGD(hinge)",
+  "best_params": {
+    "clf__alpha": 0.001,
+    "clf__penalty": "l2",
+    "vec__char__ngram_range": [
+      3,
+      5
+    ],
+    "vec__word__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "test_macro_f1": 0.2362221571667434,
+  "test_accuracy": 0.2494080505130229
+}

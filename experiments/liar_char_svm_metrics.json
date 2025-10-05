@@ -1,0 +1,14 @@
+{
+  "model": "TFIDF(char 3-6) + LinearSVC",
+  "best_params": {
+    "clf__C": 0.25,
+    "clf__class_weight": "balanced",
+    "clf__loss": "squared_hinge",
+    "tfidf__ngram_range": [
+      3,
+      6
+    ]
+  },
+  "test_macro_f1": 0.23828946106759083,
+  "test_accuracy": 0.2462509865824783
+}
