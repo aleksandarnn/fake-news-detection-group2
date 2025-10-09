@@ -1,0 +1,11 @@
+{
+  "macro_f1": 0.2798139656843199,
+  "accuracy": 0.2936069455406472,
+  "val_best_macro_f1": 0.2571604692601424,
+  "model_name": "distilbert-base-uncased",
+  "max_len": 128,
+  "epochs": 3,
+  "lr": 2e-05,
+  "batch_train": 8,
+  "batch_eval": 16
+}
