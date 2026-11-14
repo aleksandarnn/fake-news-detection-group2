@@ -1,0 +1,8 @@
+{
+  "model": "Drop-last-sentence (text)",
+  "test_macro_f1": 0.23787246517255944,
+  "test_accuracy": 0.23993685872138912,
+  "best_params": {},
+  "grid_searched": false,
+  "seed": 42
+}

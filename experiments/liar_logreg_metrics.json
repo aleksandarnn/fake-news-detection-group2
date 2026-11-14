@@ -1,7 +1,10 @@
 {
   "model": "TFIDF(word 1-2) + LogReg",
+  "test_macro_f1": 0.24175451806677814,
+  "test_accuracy": 0.2430939226519337,
   "best_params": {
-    "clf__C": 0.5
+    "clf__C": "0.5"
   },
-  "test_macro_f1": 0.24175451806677814
+  "grid_searched": false,
+  "seed": 42
 }

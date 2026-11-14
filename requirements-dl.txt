@@ -1,0 +1,10 @@
+# Deep-learning extras, needed only by src/distilbert.py.
+# Install on top of requirements.txt:
+#   pip install -r requirements.txt -r requirements-dl.txt
+#
+# For a CUDA build of torch, follow https://pytorch.org/get-started/locally/
+# instead of taking the default wheel below.
+-r requirements.txt
+
+torch>=2.0
+transformers>=4.38

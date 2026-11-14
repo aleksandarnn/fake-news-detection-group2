@@ -1,5 +1,8 @@
 {
-  "model": "metadata_only",
-  "macro_f1": 0.2540857505003976,
-  "accuracy": 0.2517758484609313
+  "model": "Metadata-only",
+  "test_macro_f1": 0.2540857505003976,
+  "test_accuracy": 0.2517758484609313,
+  "best_params": {},
+  "grid_searched": false,
+  "seed": 42
 }

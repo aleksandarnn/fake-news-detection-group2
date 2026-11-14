@@ -1,0 +1,21 @@
+# Normalise line endings: LF in the repository, native in the working tree.
+# Without this, collaborators on Windows and Linux produce whole-file diffs.
+* text=auto
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.csv  text eol=lf
+*.tsv  text eol=lf
+*.ipynb text eol=lf
+
+*.png     binary
+*.pdf     binary
+*.joblib  binary
+
+# GitHub's language bar otherwise reports this as a Jupyter Notebook project
+# on the strength of one large .ipynb. The notebook is the record of how the
+# work happened; src/ is the code. Count the code.
+*.ipynb linguist-documentation

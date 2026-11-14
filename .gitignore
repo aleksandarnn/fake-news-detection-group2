@@ -1,0 +1,55 @@
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# --- Trained model artifacts (regenerate with src/, see README) ---
+# These are large and fully reproducible from the scripts; metrics JSON is
+# version-controlled instead so results stay reviewable without the binaries.
+*.joblib
+*.pkl
+*.pt
+*.bin
+*.safetensors
+experiments/**/model/
+experiments/**/checkpoint-*/
+
+# --- Large source corpora not used by the experiments ---
+# The LIAR splits in data/LIAR_dataset/ ARE tracked (3 MB) so the repo runs
+# out of the box. Anything else under data/ must be downloaded locally.
+data/News_dataset/
+
+# --- Hugging Face / torch caches ---
+.cache/
+hf_cache/
+runs/
+wandb/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
